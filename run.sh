@@ -23,7 +23,7 @@ install(){
     echo "    >> Launch in Normal Mode : ./run.sh"
     echo "    >> Launch in Screen Mode : screen ./run.sh"
     echo "    >> Launch with AutoLaunch : screen ./auto.sh"
-    echo -e "       \033[01;30mPowered By Enigma (@EnigmaTM)\033[0m\n"
+    echo -e "       \033[01;30mPowered By BotReborn (@botreborn_ch)\033[0m\n"
 }
 
 if [ "$1" = "install" ]; then
