@@ -1,6 +1,5 @@
-# [TeleEnigma](https://telegram.me/EnigmaTm)
+# [lua anti](https://telegram.me/botreborn_ch)
 
-**A PowerFul Telegram Tg-Cli Bot Based On [SeedTeam/TeleSeed](https://github.com/SEEDTEAM/TeleSeed).**
 > این ربات تنها در سوپرگروه ها و پی وی کارکرد دارد
 
 > این سورس بطور کامل دوباره نویسی شده است
@@ -18,8 +17,8 @@ sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-d
 
 # حالا وقت نصب رباته. دستورای زیر رو به ترتیب توی ترمینال وارد میکنیم
 cd $HOME
-git clone https://github.com/Enigma-Team/TeleEnigma.git
-cd TeleEnigma
+git clone https://github.com/MeGaReborn/f5.git
+cd f5
 chmod +x run.sh
 ./run.sh install
 # حالا صبر میکنیم تا کارش تموم بشه و بعد ...
@@ -29,7 +28,7 @@ chmod +x run.sh
 ```
 #### نصب ربات به صورت یک دستور
 ```sh
-sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-dev lua-socket lua-sec lua-expat libevent-dev make unzip git redis-server autoconf g++ libjansson-dev libpython-dev expat libexpat1-dev && cd $HOME && git clone https://github.com/Enigma-Team/TeleEnigma.git && cd TeleEnigma && chmod +x run.sh && ./run.sh install && ./run.sh
+sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-dev lua-socket lua-sec lua-expat libevent-dev make unzip git redis-server autoconf g++ libjansson-dev libpython-dev expat libexpat1-dev && cd $HOME && git clone https://github.com/MeGaReborn/f5.git && cd f5 && chmod +x run.sh && ./run.sh install && ./run.sh
 ```
 
 #### رفع اررور
@@ -37,7 +36,7 @@ sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-d
 ```sh
 # Error : /usr/bin/env: ‘bash\r’: No such file or directory
 
-cd TeleEnigma
+cd f5
 sed -i 's/\r$//' run.sh
 ```
 
