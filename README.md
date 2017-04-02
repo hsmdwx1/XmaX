@@ -27,7 +27,6 @@ chmod +x run.sh
 ```sh
 sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-dev lua-socket lua-sec lua-expat libevent-dev make unzip git redis-server autoconf g++ libjansson-dev libpython-dev expat libexpat1-dev && cd $HOME && git clone https://github.com/MeGaReborn/f5.git && cd f5 && chmod +x run.sh && ./run.sh install && ./run.sh
 ```
-
 #### رفع اررور
 اگر هنگام ران کردن ربات با اررور پایین برخوردید از دستور زیر استفاده نمایید
 ```sh
@@ -54,7 +53,10 @@ sudo_users = {
 ```
 حال به جای 0 آیدی خودتون رو قرار بدید
 * * *
-
+####
+cd f5
+screen ./auto.sh
+دستور اوتو لانج 
 # دستورات ربات
 
 ### > chat_mod.lua
