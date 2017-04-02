@@ -1,16 +1,9 @@
 --[[
 
 	Powered By :
-		 _____       _  ____
-		| ____|_ __ (_)/ ___|_ __ ___   __ _ TM
-		|  _| | '_ \| | |  _| '_ ` _ \ / _` |
-		| |___| | | | | |_| | | | | | | (_| |
-		|_____|_| |_|_|\____|_| |_| |_|\__,_|
+		
+	*  > Channel : @botreborn_ch   *
 	
-	****************************
-	*  >> By : Reza Mehdipour  *
-	*  > Channel : @EnigmaTM   *
-	****************************
 	
 ]]
 
@@ -87,7 +80,7 @@ if (matches[1] == "راهنمای شارژ" or matches[1]:lower() == "helpcharge
 	end
 	
 	HelpChargeText = [[جهت شارژ گروه خود از طریق ربات زیر با ما در تماس باشید :
-@EnigmaSupBot
+@boydev_bot
 ➖➖➖➖
 یا در گروه پشتیبانی عضو شوید :]]
 	return reply_msg(msg.id,HelpChargeText.."\n"..SpLink,ok_cb,false)
