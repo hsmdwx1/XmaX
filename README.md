@@ -56,7 +56,8 @@ sudo_users = {
 ####
 cd f5
 screen ./auto.sh
-دستور اوتو لانج 
+دستور اوتو لانچ
+```sh
 # دستورات ربات
 
 ### > chat_mod.lua
