@@ -230,9 +230,9 @@ function create_config( )
     sudo_users = {201707431,0}, --Sudo users
     moderation = {data = 'data/moderation.json'},
     about_text = [[
-	TeleEnigma Bot !
-		<b>Powered By Enigma</b>
-				@EnigmaTM
+	Telemega Bot !
+		<b>Powered By megacli</b>
+				@botreborn_ch
 ]],
   }
 	serialize_to_file(config, './data/config.lua')
