@@ -1,16 +1,6 @@
 --[[
 
-	Powered By :
-		 _____       _  ____
-		| ____|_ __ (_)/ ___|_ __ ___   __ _ TM
-		|  _| | '_ \| | |  _| '_ ` _ \ / _` |
-		| |___| | | | | |_| | | | | | | (_| |
-		|_____|_| |_|_|\____|_| |_| |_|\__,_|
-	
-	****************************
-	*  >> By : Reza Mehdipour  *
-	*  > Channel : @EnigmaTM   *
-	****************************
+
 	
 ]]
 
@@ -60,9 +50,9 @@ function run(msg, matches)
 		if matches[2] then
 			if string.match(matches[2],"^[Hh][Tt][Tt][Pp]://") or string.match(matches[2],"^[Hh][Tt][Tt][Pp][Ss]://") then
 				local yeo = http.request('http://yeo.ir/api.php?url='..URL.escape(matches[2]))
-				local opizo = http.request('http://api.gpmod.ir/shorten/?url='..URL.escape(matches[2])..'&username=rezamehdpour@gmail.com')
+				local opizo = http.request('http://api.gpmod.ir/shorten/?url='..URL.escape(matches[2])..'&username=botreborn@gmail.com')
 
-				return reply_msg(msg.id,'لینک مورد نظر :\n'..matches[2]..'\n\n━━━━━━━━━━\nلینک کوتاه شده با Opizo :\n'..opizo..'\n━━━━━━━━━━\nلینک کوتاه شده با Yeo :\n'..yeo..'\n━━━━━━━━━━━\n» [ @EnigmaTM ] «',ok_cb,false)
+				return reply_msg(msg.id,'لینک مورد نظر :\n'..matches[2]..'\n\n━━━━━━━━━━\nلینک کوتاه شده با Opizo :\n'..opizo..'\n━━━━━━━━━━\nلینک کوتاه شده با Yeo :\n'..yeo..'\n━━━━━━━━━━━\n» [ ایدی کانالتون ] «',ok_cb,false)
 		
 			else
 		
@@ -81,7 +71,7 @@ function run(msg, matches)
 		local res = http.request(database.."fal.db")
 		local fal = res:split(",")
 		local fal = fal[math.random(#fal)]
-				txt = "🎭 فال شما :\n━━━━━━━━━━━━━━━━━━━━━━━━\n"..fal.."\n━━━━━━━━━━━━\n» [ @EnigmaTM ] «"
+				txt = "🎭 فال شما :\n━━━━━━━━━━━━━━━━━━━━━━━━\n"..fal.."\n━━━━━━━━━━━━\n» [ کانال شما ] «"
 		return reply_msg(msg.id,txt,ok_cb,false)
 	end
 	
@@ -109,7 +99,7 @@ function run(msg, matches)
 		local pass = 'dram1135' 
 		local url = 'http://api.avirateam.ir/mobile/cli/index.php?pass='..pass 
 		local req = http.request(url) 
-			req = req:gsub("Powered By http://www.mobile.ir","━━━━━━━━━━━━\n» [ @EnigmaTM ] «")
+			req = req:gsub("Powered By http://www.mobile.ir","━━━━━━━━━━━━\n» [ کانال شما ] «")
 			req = req:gsub("اطلاعات بیشتر","لینک")
 			req = req:gsub("🆕 لیست جدیدترین گوشی ها :","🔍 جدیدترین موبایل ها :\n━━━━━━━━━━━━━━━")
 			return reply_msg(msg.id,req,ok_cb,false)
@@ -151,16 +141,6 @@ patterns = {
 
 --[[
 
-	Powered By :
-		 _____       _  ____
-		| ____|_ __ (_)/ ___|_ __ ___   __ _ TM
-		|  _| | '_ \| | |  _| '_ ` _ \ / _` |
-		| |___| | | | | |_| | | | | | | (_| |
-		|_____|_| |_|_|\____|_| |_| |_|\__,_|
-	
-	****************************
-	*  >> By : Reza Mehdipour  *
-	*  > Channel : @EnigmaTM   *
-	****************************
+
 	
 ]]
